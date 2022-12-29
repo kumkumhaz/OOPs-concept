@@ -1,0 +1,89 @@
+/*class Product{
+    constructor(name, price ,color){
+        this.productName = name;
+        this.productPrice = price;
+        this.productColor = color;
+    }
+    displayProduct(){    //DATA members
+        console.log("Name: " + this.productName);
+         console.log("Price: " + this.productPrice); 
+         console.log("Color: " + this.productColor);
+
+    }
+}
+       const product1 = new Product("car",1200000,"black");
+    product1.displayProduct();*/
+
+// create a class to add two complex numpers
+
+
+
+  /*  class ComplexNumber{
+        constructor(r,i){
+            this.real =  r;
+            this.imag = i;
+            }
+            add(c){  // c is the complex number to be added
+                 this.real += c.real;
+                 this.imag += c.imag;
+            }
+            display(){
+                console.log(this.real , " + i", this.imag);
+    }
+
+    }
+    const c1 = new ComplexNumber(2,6);
+    c1.display();
+    const c2 = new ComplexNumber(4,8);
+    c1.add(c2);
+    c1.display();*/
+
+
+
+    // BY DHEERAJ SIR////////////////
+    // creating blueprint of customer
+    class customer{
+        //properties.
+        name ='';
+        age = '';
+        address='';
+        userid='';
+        mobile='';
+        email='';
+        //assign value to the properties of objects.
+        constructor(_name,_age,_address,_userid, _mobile,_email){ // basically here we are using constructor to create an object and assigning value / details of the customer(object) to the properties/
+        //cons(_name,_age,_address,_userid, _mobile,_email) { // but the same thing we can do without using constructor as we are doing here(here we are using a function) and getting the same result/output
+            this.name = _name;
+            this.age =_age;
+            this.address= _address;
+            this.userid=_userid;
+            this.mobile = _mobile;
+            this.email=_email;
+        }
+        // the thing is why do we need constructor?
+
+        //methods(functions).  Actions to be performed    
+        placeOrder(){
+            console.log(this);
+            this.trackOrder();
+            console.log('place order for  ' + this.name);
+        }
+        trackOrder(){
+
+        }
+        search(){
+
+        }
+    }
+
+        //create an object.
+        //creating an object using customer  blueprint.
+        var customer1 = new customer('kumkum',22,'hazaribagh', 'kk',9876543210,'kumkum@gmail.com');
+        customer1.placeOrder();
+       /* var customer1 = new customer();
+        customer1.cons('kumkum',22,'hazaribagh', 'kk',9876543210,'kumkum@gmail.com');
+        customer1.placeOrder();*/       
+
+        var customer1 = new customer('kumkm',22,'hazari','kmkm',98765431230,'kumkumkumari@gmail.com');
+        customer1.placeOrder();
+    

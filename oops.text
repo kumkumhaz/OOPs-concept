@@ -1,0 +1,35 @@
+Blueprint is something how the product will look like,
+basically the reference(how the design will look alike , colours, size etc ) to make real object or entity,and from that refeerence we create our real object.
+
+Class => classe are the blueprint , the designs, how the real thing wi look like
+Object => the thing we create using blueprint/ tamphlates/ reference
+Methods => the actions, will be performed by the objects, created by the blueprints.
+Constructor =>  job of the Constructori to initialize the value for the objects against the properties created using blueprint, it help us to assign the value to the properties of the object.
+              We asign value using " this." property.
+
+if we use create an object in derived class constructor then we call only derived class constructor but if we want to call parent class constructor we use "super" keyword.
+super => this is a keyword , we use it to call the methods of parent class, to access the constructor of parent class , we use super keyword.
+
+
+Polymorphism(method Overloading / method overriding) :-
+>  very popular defination is " taking multiple form " or  a way to perform one operations (actions) in multiple forms.
+>  poly means multiple , ability to multiple things and this is Polymorphism all about.
+>  Increase reusability of code ,It allow us to use the code multiple times 
+>  works with in heritance
+ 
+ if there is a method in parent class and we also want this method to call in child class but with different logic and for the same we create another method in child class, which is known as method overriding.
+ first child class method check if there exist any overriden method or not if yes then it call that child class method othiwise it call the methd from parent class. 
+
+
+
+
+
+
+
+
+
+
+Must have knowledge of oops
+1. SOLID principles
+2. Design Patterns
+3.
